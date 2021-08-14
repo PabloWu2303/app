@@ -1,0 +1,395 @@
+{
+	"main-page": {
+		"header": "Witaj!",
+		"content": "To najlepsze mniejsce do rozpoczęcia zarządzania swoimi zamówieniami!"
+	},
+	"header": {
+		"pageName": "Order service system logo",
+		"title": "Order Management System"
+	},
+	"nav": {
+		"main-page": "Strona główna",
+		"addresses": "Adresy",
+		"buildings": "Budowy",
+		"employees": "Pracownicy",
+		"orders": "Zamówienia",
+		"materials": "Materiały",
+		"subcontractors": "Podwykonawcy",
+		"tools": "Narzędzia"
+	},
+	"auth": {
+		"pagetitle": "Login",
+		"sbcName": "Nazwa podwykonawcy",
+		"password": "Hasło",
+		"loggedLabel": "Jesteś zalogowany jako  :  ",
+		"login": "Zaloguj",
+		"logout": "Wyloguj"
+	},
+	"list": {
+		"actions": {
+			"title": "Akcje",
+			"details": "Szczegóły",
+			"edit": "Edytuj",
+			"delete": "Usuń"
+		}
+	},
+	"form": {
+		"actions": {
+			"return": "Powrót",
+			"edit": "Edytuj",
+			"cancel": "Anuluj",
+			"add": "Dodaj",
+			"save": "Zapisz",
+			"addEmployment": "Dodaj zatrudnienie"
+		},
+		"validation": {
+			"messages": {
+				"notEmpty": "Pole jest wymagane",
+				"len_2_60": "Pole powinno zawierać od 2 do 60 znaków",
+				"len_1_9": "Pole powinno zawierać od 1 do 9 znaków",
+				"isEmail": "Pole powinno zawierać prawidłowy adres email",
+				"formErrors": "Formularz zawiera błędy"
+			}
+		}
+	},
+	"address": {
+		"fields": {
+			"city": "Miasto",
+			"street": "Ulica",
+			"houseNumber": "Nr domu",
+			"flatNumber": "Nr lokalu",
+			"postalCode": "Kod pocztowy"
+		},
+		"list": {
+			"title": "Adresy",
+			"addNew": "Dodaj nowy adres"
+		},
+		"details": {
+			"title": "Szczegóły adresu"
+		},
+		"form": {
+			"": ""
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nowy adres",
+			"edit": "Pomyślnie zaktualizowano adres"
+		}
+	},
+	"buildingSite": {
+		"fields": {
+			"name": "Nazwa",
+			"address": "Adres",
+			"budget": "Budżet",
+			"startDate": "Data rozpoczęcia",
+			"endDate": "Data zakończenia"
+		},
+		"list": {
+			"title": "Budowy",
+			"addNew": "Dodaj nową budowę",
+			"noData": "Brak budowy w bazie",
+			"pageTitle": "Lista budów"
+		},
+		"form": {
+			"orders": "Zamówienia",
+			"add": {
+				"pageTitle": "Dodawanie budowy",
+				"btnLabel": "Dodaj budowę",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie dodano budowę"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edycja budowę",
+				"btnLabel": "Zapisz zmiany",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie zaktualizowano budowę"
+				}
+			},
+			"details": {
+				"pageTitle": "Szczegóły budowy",
+				"btnLabel": "aaa"
+			},
+			"notice": {
+				"new": "Pomyślnie dodano nową budowę",
+				"edit": "Pomyślnie zaktualizowano dane budowy"
+			}
+		}
+	},
+	"employee": {
+		"fields": {
+			"name": "Imię",
+			"surname": "Nazwisko",
+			"mobile": "Nr telefonu",
+			"email": "Email",
+			"workplace": "Stanowisko"
+		},
+		"list": {
+			"title": "Pracownicy",
+			"addNew": "Dodaj nowego pracownika"
+		},
+		"details": {
+			"title": "Szczegóły pracownika"
+		},
+		"form": {
+			"new": "Nowy pracownik",
+			"edit": "Edycja pracownika"
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nowego pracownika",
+			"edit": "Pomyślnie zaktualizowano dane pracownika"
+		}
+	},
+	"employment": {
+		"fields": {
+			"buildingSite": "Budowa",
+			"employee": "Pracownik",
+			"startDate": "Data rozpoczęcia",
+			"endDate": "Data zakończenia"
+		},
+		"list": {
+			"title": "Zatrudnienie",
+			"addNew": "Dodaj nowe zatrudnienie"
+		},
+		"details": {
+			"title": "Szczegóły zatrudnienia"
+		},
+		"form": {
+			"new": "Nowe zatrudnienie",
+			"edit": "Edycja zatrudnienia"
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nowe zatrudnienie",
+			"edit": "Pomyślnie zaktualizowano zatrudnienie"
+		}
+	},
+	"material": {
+		"fields": {
+			"name": "Nazwa",
+			"unitPrice": "Cena jednostkowa"
+		},
+		"list": {
+			"title": "Materiał",
+			"addNew": "Dodaj nowy materiał"
+		},
+		"details": {
+			"title": "Szczegóły materiału"
+		},
+		"form": {
+			"new": "Nowy materiał",
+			"edit": "Edycja danych materiału"
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nowy materiał",
+			"edit": "Pomyślnie zaktualizowano materiał"
+		}
+	},
+	"materialOrder": {
+		"fields": {
+			"idOrder": "Numer zamówienia",
+			"assumedRealizationDate": "Zakładana data realizacji",
+			"realizationDate": "Data realizacji",
+			"registrationDate": "Data utworzenia",
+			"status": "Status",
+			"paymentMethod": "Metoda płatności",
+			"subcontractor": "Podwykonawca",
+			"buildingSite": "Budowa",
+			"address": "Adres dostawy"
+		},
+		"list": {
+			"title": "Zamówienia materiałów",
+			"addNew": "Dodaj nowe zamówienie",
+			"noData": "Brak zamówienia w bazie",
+			"pageTitle": "Lista zamówień materiału"
+		},
+		"form": {
+			"orders": "Zamówienia materiału",
+			"add": {
+				"pageTitle": "Dodawanie zamówienia materiału",
+				"btnLabel": "Dodaj zamówienie materiału",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie dodano zamówienie"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edycja zamówienia materiału",
+				"btnLabel": "Zapisz zmiany",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie zaktualizowano zamówienie"
+				}
+			},
+			"details": {
+				"pageTitle": "Szczegóły zamówień"
+			}
+		}
+	},
+	"onOrderMaterial":{
+		"fields":{
+			"material": "Materiał",
+			"quantity": "Ilość"
+		},
+		"list":{
+			"title": "Lista materiałów"
+		},
+		"buttons":{
+			"add": "Dodaj materiał do zamówienia"
+		}
+	},
+	"order": {
+		"choose": {
+			"title": "Wybierz rodzaj zamówienia",
+			"material": "Zamówienie materiału",
+			"service": "Zamówienie usługi",
+			"tool": "Zamówienie narzędzi"
+		}
+	},
+	"serviceOrder": {
+		"fields": {
+			"idOrder": "Numer zamówienia",
+			"assumedRealizationDate": "Zakładana data realizacji",
+			"realizationDate": "Data realizacji",
+			"status": "Status",
+			"subcontractor": "Podwykonawca",
+			"building": "Budowa"
+		},
+		"list": {
+			"title": "Zamówienia usług",
+			"addNew": "Dodaj nowe zamówienie",
+			"noData": "Brak zamówienia w bazie",
+			"pageTitle": "Lista zamówień usług"
+		},
+		"form": {
+			"orders": "Zamówienia usług",
+			"add": {
+				"pageTitle": "Dodawanie zamówienia usługi",
+				"btnLabel": "Dodaj zamówienie usługi",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie dodano zamówienie"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edycja zamówienia usługi",
+				"btnLabel": "Zapisz zmiany",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie zaktualizowano zamówienie"
+				}
+			},
+			"details": {
+				"pageTitle": "Szczegóły zamówień"
+			}
+		}
+	},
+	"subcontractor": {
+		"fields": {
+			"name": "Nazwa",
+			"address": "Adres",
+			"nip": "NIP",
+			"cooperationRate": "Ocena współpracy",
+			"deliveryMethod": "Sposób dostawy",
+			"supplier": "Dostawca",
+			"contractor": "Wykonawca"
+		},
+		"list": {
+			"title": "Podwykonawcy",
+			"addNew": "Dodaj nowego podwykonawcę",
+			"noData": "Brak podwykonawcy w bazie",
+			"pageTitle": "Lista podwykonawców"
+		},
+		"form": {
+			"orders": "Zamówienia",
+			"add": {
+				"pageTitle": "Dodawanie podwykonawcy",
+				"btnLabel": "Dodaj podwykonawcę",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie dodano podwykonawcę"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edycja podwykonawcę",
+				"btnLabel": "Zapisz zmiany",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie zaktualizowano podwykonawcę"
+				}
+			},
+			"details": {
+				"pageTitle": "Szczegóły podwykonawcy",
+				"btnLabel": "aaa"
+			},
+			"notice": {
+				"new": "Pomyślnie dodano nowego podwykonawcę",
+				"edit": "Pomyślnie zaktualizowano dane podwykonawce"
+			}
+		},
+		"choose": {
+			"title": "Wybierz rodzaj podwykonawcy",
+			"supplier": "Dostawca",
+			"contractor": "Usługodawca"
+		}
+	},
+	"tool": {
+		"fields": {
+			"name": "Nazwa",
+			"purpose": "Przeznaczenie"
+		},
+		"list": {
+			"title": "Narzędzia",
+			"addNew": "Dodaj nowy narzędzie"
+		},
+		"details": {
+			"title": "Szczegóły narzędzia"
+		},
+		"form": {
+			"new": "Nowe narzędzie",
+			"edit": "Edycja danych narzędzia"
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nowe narzędzie",
+			"edit": "Pomyślnie zaktualizowano narzędzie"
+		}
+	},
+	"toolOrder": {
+		"fields": {
+			"idOrder": "Numer zamówienia",
+			"assumedRealizationDate": "Zakładana data realizacji",
+			"realizationDate": "Data realizacji",
+			"status": "Status",
+			"subcontractor": "Podwykonawca",
+			"building": "Budowa"
+		},
+		"list": {
+			"title": "Zamówienia narzędzi",
+			"addNew": "Dodaj nowe zamówienie",
+			"noData": "Brak zamówienia w bazie",
+			"pageTitle": "Lista zamówień narzędzi"
+		},
+		"form": {
+			"orders": "Zamówienia narzędzi",
+			"add": {
+				"pageTitle": "Dodawanie zamówienia narzędzi",
+				"btnLabel": "Dodaj zamówienie narzędzi",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie dodano zamówienie"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edycja zamówienia narzędzi",
+				"btnLabel": "Zapisz zmiany",
+				"confirm": {
+					"header": "Potwierdzenie operacji",
+					"text": "Pomyślnie zaktualizowano zamówienie"
+				}
+			},
+			"details": {
+				"pageTitle": "Szczegóły zamówień"
+			}
+		}
+	}
+}

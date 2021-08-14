@@ -1,0 +1,230 @@
+{
+	"main-page": {
+		"header": "Welcome!",
+		"content": "It is best place to start managing yours orders, enjoy!"
+	},
+	"header": {
+		"pageName": "Order service system logo",
+		"title": "Order Management System"
+	},
+	"nav": {
+		"main-page": "Main page",
+		"buildings": "Buildings",
+		"employees": "Employees",
+		"orders": "Orders",
+		"subcontractors": "Subconstractors"
+	},
+	"auth": {
+		"pagetitle": "Login",
+		"sbcName": "Subconstractor name",
+		"password": "Password",
+		"loggedLabel": "You are logged as  :  ",
+		"login": "Log in",
+		"logout": "Logout"
+	},
+	"list": {
+		"actions": {
+			"title": "Actions",
+			"details": "Details",
+			"edit": "Edit",
+			"delete": "Delete"
+		}
+	},
+	"form": {
+		"actions": {
+			"return": "Go back",
+			"edit": "Edit",
+			"cancel": "Cancel",
+			"add": "Add",
+			"save": "Save"
+		},
+		"validation": {
+			"messages": {
+				"notEmpty": "The field is required",
+				"len_2_60": "The field should contain from 2 to 60 characters",
+				"len_1_9": "The field should contain from 1 to 9 characters",
+				"isEmail": "The field should contain a valid email address",
+				"formErrors": "The form contains errors"
+			}
+		}
+	},
+	"address":{
+		"fields":{
+			"city": "City",
+			"street": "Street",
+			"houseNumber": "House number",
+			"flatNumber": "Flat number",
+			"postalCode": "Postal code"
+		},
+		"list":{
+			"title": "Addresses",
+			"addNew": "Add new address"
+		},
+		"details":{
+			"title": "Address details"
+		},
+		"form":{
+			"": ""
+		}
+	},
+	"buildingSite": {
+		"fields": {
+			"name": "Name",
+			"address": "Address",
+			"budget": "Budget",
+			"startDate": "Start date",
+			"endDate": "End date"
+		},
+		"list": {
+			"title": "Buildings",
+			"addNew": "Add new building",
+			"noData": "No data",
+			"pageTitle": "Buildings list"
+		},
+		"form": {
+			"orders": "Orders",
+			"add": {
+				"pageTitle": "Add new building",
+				"btnLabel": "Add building",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Building added"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit building",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Building edited"
+				}
+			},
+			"details":{
+				"pageTitle": "Building details"
+			},
+			"notice":{
+				"new": "New building site added successfully",
+				"edit": "The building site's details were successfully updated"
+			}
+		}
+	},
+	"employee":{
+		"fields":{
+			"name": "Name",
+			"surname": "Surname",
+			"mobile": "Mobile",
+			"email": "Email",
+			"workplace": "Workplace"
+		},
+		"list":{
+			"title": "employees",
+			"addNew": "Add new employee"
+		},
+		"details":{
+			"title": "Employee details"
+		},
+		"form":{
+			"": ""
+		},
+		"notice":{
+			"new": "New employee added successfully",
+			"edit": "The employee details were successfully updated"
+		}
+	},
+	"employment":{
+		"fields":{
+			"buildingSite": "Building Site",
+			"employee": "Employee",
+			"startDate": "Start date",
+			"endDate": "And date"
+		},
+		"list":{
+			"title": "Employment",
+			"addNew": "Add new employment"
+		},
+		"details":{
+			"title": "Employment details"
+		},
+		"form":{
+			"new": "New employment",
+			"edit": "Edit employment"
+		},
+		"notice":{
+			"new": "New employment added successfully",
+			"edit": "The employment details were successfully updated"
+		}
+	},
+	"sbc": {
+		"fields": {
+			"name": "Name",
+			"address": "Address",
+			"nip": "NIP"
+		},
+		"list": {
+			"title": "Subconstractors",
+			"addNew": "Add new subconstractor",
+			"noData": "No data",
+			"pageTitle": "Subconstractors list"
+		},
+		"form": {
+			"orders": "Orders",
+			"add": {
+				"pageTitle": "Add new subconstractor",
+				"btnLabel": "Add subconstractor",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Subconstractor added"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit subconstractor",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Subconstractor edited"
+				}
+			},
+			"details":{
+				"pageTitle": "Subcontractor details"
+			}
+		}
+	},
+	"ord": {
+		"fields": {
+			"idOrder": "Order ID",
+			"assumedRealizationDate": "Assumed realization date",
+			"realizationDate": "Realization date",
+			"status": "Status",
+			"subcontractor": "Subconstractor",
+			"building": "Building"
+		},
+		"list": {
+			"title": "Orders",
+			"addNew": "Add new order",
+			"noData": "No data",
+			"pageTitle": "Orders list"
+		},
+		"form": {
+			"orders": "Orders",
+			"add": {
+				"pageTitle": "Add new order",
+				"btnLabel": "Add order",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Order added"
+				}
+			},
+			"edit": {
+				"pageTitle": "Edit order",
+				"btnLabel": "Save changes",
+				"confirm": {
+					"header": "Operation confirmed",
+					"text": "Order edited"
+				}
+			},
+			"details":{
+				"pageTitle": "Order details"
+			}
+		}
+	}
+}
