@@ -81,7 +81,7 @@ class EmployeeDetails extends React.Component {
         if (error) {
             content = <p>Błąd: {error.message}</p>
         } else if (!isLoaded) {
-            content = <p>Ładowanie danych pracownika</p>
+            content = <p>Ładowanie...</p>
         } else if (message) {
             content = <p>{message}</p>
         } else {

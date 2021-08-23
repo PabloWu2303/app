@@ -19,10 +19,10 @@ class ServiceForm extends React.Component {
             addresses: [],
             service: {
                 name: '',
-                purpose: ''            },
+                cost: ''            },
             errors: {
                 name: '',
-                purpose: ''
+                cost: ''
             },
             formMode: currentFormMode,
             redirect: false,
@@ -144,7 +144,7 @@ class ServiceForm extends React.Component {
                 errorMessage = 'Pole powinno zawierać od 2 do 60 znaków'
             }
         }
-        if (fieldName === 'purpose') {
+        if (fieldName === 'cost') {
             if (!checkRequired(fieldValue)) {
                 errorMessage = 'Pole jest wymagane'
             } else if (!checkTextLengthRange(fieldValue, 2, 60)) {
@@ -214,10 +214,10 @@ class ServiceForm extends React.Component {
                     />
                     <FormInput
                         type="text"
-                        label={t('service.fields.purpose')}
+                        label={t('service.fields.cost')}
                         required
                         error={this.state.errors.purpose}
-                        name="purpose"
+                        name="cost"
                         placeholder="2-60 znaków"
                         onChange={this.handleChange}
                         value={this.state.service.purpose}

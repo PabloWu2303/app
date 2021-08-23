@@ -15,7 +15,8 @@
 		"orders": "Zamówienia",
 		"materials": "Materiały",
 		"subcontractors": "Podwykonawcy",
-		"tools": "Narzędzia"
+		"tools": "Narzędzia",
+		"services": "Usługi"
 	},
 	"auth": {
 		"pagetitle": "Login",
@@ -244,6 +245,27 @@
 			"material": "Zamówienie materiału",
 			"service": "Zamówienie usługi",
 			"tool": "Zamówienie narzędzi"
+		}
+	},
+	"service": {
+		"fields": {
+			"name": "Nazwa",
+			"cost": "Cena"
+		},
+		"list": {
+			"title": "Usługa",
+			"addNew": "Dodaj nową usługę"
+		},
+		"details": {
+			"title": "Szczegóły usługi"
+		},
+		"form": {
+			"new": "Nowa usługa",
+			"edit": "Edycja danych usługi"
+		},
+		"notice": {
+			"new": "Pomyślnie dodano nową usługę",
+			"edit": "Pomyślnie zaktualizowano usługę"
 		}
 	},
 	"serviceOrder": {

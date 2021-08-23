@@ -47,7 +47,7 @@ class ToolOrderList extends React.Component {
         if (error) {
             content = <p>Błąd: {error.message}</p>
         } else if (!isLoaded) {
-            content = <p>Ładowanie adresów...</p>
+            content = <p>Ładowanie...</p>
         } else {
             content = <ToolOrderListTable toolOrderList={toolOrders} />
         }
